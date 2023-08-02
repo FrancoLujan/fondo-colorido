@@ -100,7 +100,6 @@ function boton_seleccionado(e) {
 
   for (i in botones) {
     if (e.target.className == botones[i].className) {
-      console.log("estoy dentro");
       if (
         botones[i].className == "boton__nombre" ||
         botones[i].className == "boton__nombreA"
