@@ -1,0 +1,27 @@
+.caja__botones{
+ 
+    width: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+ .boton__nombre, .boton__rgb, .boton__hexa{
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border: 0px none ;
+    margin: 5px;
+    color:rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+.boton__rgb, .boton__nombre{
+    flex-grow: 1;
+}
+button:hover{
+    transform: scale(110%);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background .3s, color .3s, transform 0.3s 
+}
