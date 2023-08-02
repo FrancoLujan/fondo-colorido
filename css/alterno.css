@@ -8,13 +8,14 @@
 
 
 .boton__nombreA, .boton__rgbA, .boton__hexaA{
-    font-size: 25px;
+    font-size: 29px;
     background-color: rgb(0, 0, 0, 0.5);
     padding: 10px;
     border: 0px none ;
     margin: 5px;
     color:rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+    font-family: 'Handjet', cursive;
 }
 .boton__rgbA, .boton__nombreA{
     flex-grow: 1;
@@ -37,4 +38,5 @@
     color:rgba(10, 10, 10, 0.8);
     text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3) ;
     border-radius: 10px;
+    font-family: 'Poiret One', cursive;
 }
