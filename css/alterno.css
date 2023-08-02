@@ -40,3 +40,10 @@
     border-radius: 10px;
     font-family: 'Poiret One', cursive;
 }
+@media screen and (max-width: 700px) {
+    .formularioA{
+        width: 22rem;
+        padding: 0px 10px;
+    }
+    
+}
